@@ -1,0 +1,11 @@
+services:
+  tsg:
+    image: "opentsg/msgtsg-amd-lnx:latest"
+    container_name: msgtsg-studio
+
+    # the second number is the local port you want the browser to connect to
+    ports:
+      - "8888:8888"
+    # the first property is where the user folder will be mapped
+    volumes:
+      - ./usr:/home/jovyan/usr
