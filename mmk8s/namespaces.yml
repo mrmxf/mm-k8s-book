@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: mm
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: mrx
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: share
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: otsg
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: wp
